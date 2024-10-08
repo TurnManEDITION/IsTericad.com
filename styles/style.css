@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Jost:ital,wght@0,100..900;1,100..900&family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+li > a {
+	display: block;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+body {
+	background-color: #000;
+	color: #FFF;
+	font-family: sans-serif;
+}
+nav{
+	text-align: center;
+	margin: 0;
+}
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+}
+.menu{
+	display: inline-block;
+	top: 10px;
+	border:  1px solid rgba(255,255,255, 0.4);
+	font-family: "Jost", sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+}
+.menu > li{
+	float: left;
+	color: #e298e1;
+	width: 140px;
+	height: 40px;
+	line-height: 40px;
+	background: rgba(0,0,0, 0.7);
+	cursor: default;
+	font-size: 20px;
+	border:  1px solid rgba(255,255,255, 0.15);
+	transition: all 300ms ease-in-out;
+}
+.menu > li:hover {
+	background-color: rgba(255,255,255, 0.30);
+}
+.news {
+	text-align: center;
+	cursor: default;
+	border: 2.5px solid rgba(255, 255, 255, 0.4);
+	margin-top: 8.5px;
+}
+.news:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+.title {
+	font-size: 2.5em;
+	font-family: "M PLUS Rounded 1c", sans-serif;
+	font-style: bold;
+}
+.text {
+	text-align: left;
+	padding: 10px;
+	font-family: "Comfortaa", sans-serif;
+	font-style: normal;
+}
+p::selection {
+	background-color: rgb(40, 20, 100);
+}
+br::selection {
+	background-color: rgb(40, 20, 100);
+}

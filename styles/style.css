@@ -26,6 +26,17 @@ nav{
 	text-align: center;
 	margin: 0;
 }
+p::selection {
+	background-color: rgb(40, 20, 100);
+}
+br::selection {
+	background-color: rgb(40, 20, 100);
+}
+xmp {
+	margin-left: 5px;
+	margin-top: -20px;
+	margin-bottom: 3px;
+}
 .container {
 	max-width: 940px;
 	margin: 0 auto;
@@ -73,9 +84,41 @@ nav{
 	font-family: "Comfortaa", sans-serif;
 	font-style: normal;
 }
-p::selection {
-	background-color: rgb(40, 20, 100);
+.code {
+	border: 2px solid rgba(255, 255, 255, 0.25);
+	margin-top: 3px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
-br::selection {
-	background-color: rgb(40, 20, 100);
+.lang_code {
+	text-align: right;
+	margin-top: 7px;
+	margin-right: 7px;
+}
+.copyright {
+	text-align: right;
+	margin-top: 2px;
+	margin-right: 57px;
+
+}
+#copy {
+	position: absolute;
+	cursor: pointer;
+	background-color: rgba(20, 30, 30, 1.0);
+	color: #FFF;
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	font-size: 1.3em;
+}
+#copy:hover {
+	background-color: rgba(40, 60, 60, 1.0);
+	border: 1px solid rgba(255, 255, 255, 0.5);
+}
+#copy:active {
+	margin-top: 3px;
+}
+.time {
+	text-align: right;
+	margin-right: 10px;
+	color: rgba(200, 255, 255, 0.4);
+	font-family: "Comfortaa", sans-serif;
 }

@@ -37,6 +37,15 @@ xmp {
 	margin-top: -20px;
 	margin-bottom: 3px;
 }
+img {
+	width: 700px;
+	margin-bottom: 10px;
+	border: 2px solid rgba(255, 255, 255, 0.35);
+	transition: all 300ms ease-in-out;
+}
+img:hover {
+	transform: scale(101%);
+}
 .container {
 	max-width: 940px;
 	margin: 0 auto;
@@ -121,4 +130,6 @@ xmp {
 	margin-right: 10px;
 	color: rgba(200, 255, 255, 0.4);
 	font-family: "Comfortaa", sans-serif;
+}
+.img {
 }

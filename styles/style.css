@@ -254,6 +254,7 @@
 		margin-top: 3px;
 	}
 	.time {
+		font-size: 0.6em;
 		text-align: right;
 		margin-right: 10px;
 		color: rgba(200, 255, 255, 0.4);

@@ -143,6 +143,11 @@
 		border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 		border-right: 2px solid rgba(255, 255, 255, 0.5);
 	}
+	xmp {
+		margin-left: 5px;
+		margin-top: -30px;
+		margin-bottom: 5px;
+	}
 	li {
 		list-style: none;
 		text-align: center;
@@ -229,12 +234,15 @@
 		margin-top: 5px;
 		margin-right: 7px;
 	}
+	.lang_code {
+		font-size: 1.1em;
+	}
 	#copy {
 		cursor: pointer;
 		background-color: rgba(20, 30, 30, 1.0);
 		color: #FFF;
 		border: 1px solid rgba(255, 255, 255, 0.25);
-		font-size: 1.3em;
+		font-size: 1em;
 	}
 	#copy:hover {
 		background-color: rgba(40, 60, 60, 1.0);

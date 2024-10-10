@@ -232,6 +232,7 @@
 		overflow-x: scroll;
 	}
 	.in_code {
+		position: absolute;
 		text-align: right;
 		margin-top: 5px;
 		margin-right: 7px;

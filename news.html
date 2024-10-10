@@ -7,7 +7,7 @@
 	<title>Programmer Thoughts</title>
 </head>
 <body>
-	<div class="container">
+	<section class="header_pc">
 		<nav>
 			<ul class="menu">
 				<li>
@@ -24,17 +24,49 @@
 				</li>
 			</ul>
 		</nav>
-		
-		<div class="news">
-			<div class="title">
-				<p>1-ый тестовый пост</p>
-			</div>
-			<div class="text">
-				<p>
-					Меня зовут Андрей! Мне 15 лет. Я программист. <br>Это тестовая страница для проверки под разные типы устройств. <br>
-					<div class="code">
-						<div class="lang_code">HTML</div>
-						<div class="copyright"><button onclick="myFunction()" id="copy">Copy</button></div>
+	</section>
+	<section class="header_phone">
+		<section id="content_menu" class="display_none">
+			<header>
+				<img id="button_back" class="menu" style="border: 0px solid #FFF;" src="Images/Icons/white_back.png" alt="">
+				<div class="name_site">IsTericad</div>
+			</header>
+			<ul class="content_menu">
+				<li>
+					<a href="">Новости</a>
+				</li>
+				<li>
+					<a href="links.html">Ссылки</a>
+				</li>
+				<li>
+					<a href="downloads.html">Скачивание</a>
+				</li>
+				<li>
+					<a href="about.html">Об авторе</a>
+				</li>
+			</ul>
+		</section>
+		<section id="header_content" class="display_block">
+			<header>
+				<img id="button_menu" class="menu" style="border: 0px solid #FFF;" src="Images/Icons/white_menu.png" alt="">
+				<a href=""><div class="name_site">IsTericad</div></a>
+			</header>
+		</section>
+	</section>
+	<section id="content" class="display_block">
+		<div class="container">
+			<div class="news">
+				<div class="title">
+					<p>1-ый тестовый пост</p>
+				</div>
+				<div class="text">
+					<p>
+						Меня зовут Андрей! Мне 15 лет. Я программист. <br>Это тестовая страница для проверки под разные типы устройств. <br>
+						<div class="code">
+							<div class="in_code">
+								<div class="lang_code">HTML</div>
+								<div class="copyright"><button onclick="myFunction()" id="copy">Copy</button></div>
+							</div>
 <xmp id="xmp"><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,15 +79,16 @@
 	<h1>Hello world!</h1>
 </body>
 </html></xmp>
-					</div>
-				</p>
+						</div>
+					</p>
+				</div>
+				<img src="Images/Python.png" alt="Картинка">
+				<div class="time">
+					08.10.2024
+				</div>
 			</div>
-			<div class="time">
-				08.10.2024
-			</div>
-			<img src="Images/Python.png" alt="Картинка">
 		</div>
-	</div>
-<script src="JavaScripts/script.js"></script>
+		<script src="JavaScripts/script.js"></script>
+	</section>
 </body>
 </html>

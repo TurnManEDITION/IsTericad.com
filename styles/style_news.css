@@ -1,0 +1,209 @@
+@media (min-width: 1080px) {
+	xmp {
+		margin-left: 5px;
+		margin-top: -45px;
+		margin-bottom: 3px;
+	}
+	img {
+		width: 700px;
+		margin-bottom: 10px;
+		border: 2px solid rgba(255, 255, 255, 0.35);
+		transition: all 300ms ease-in-out;
+	}
+	img:hover {
+		transform: scale(101%);
+	}
+	.news {
+		text-align: center;
+		cursor: default;
+		border: 2.5px solid rgba(255, 255, 255, 0.4);
+		margin-top: 8.5px;
+	}
+	.news:hover {
+		background-color: rgba(255, 255, 255, 0.1);
+	}
+	.title {
+		font-size: 2.5em;
+		font-family: "M PLUS Rounded 1c", sans-serif;
+		font-style: bold;
+	}
+	.text {
+		text-align: left;
+		padding: 10px;
+		font-family: "Comfortaa", sans-serif;
+		font-style: normal;
+	}
+	.code {
+		border: 2px solid rgba(255, 255, 255, 0.25);
+		margin-top: 3px;
+		margin-left: 5px;
+		margin-right: 5px;
+		overflow-x: scroll;
+	}
+	.in_code {
+		text-align: right;
+		margin-top: 5px;
+		margin-right: 7px;
+	}
+	#copy {
+		cursor: pointer;
+		background-color: rgba(20, 30, 30, 1.0);
+		color: #FFF;
+		border: 1px solid rgba(255, 255, 255, 0.25);
+		font-size: 1.3em;
+	}
+	#copy:hover {
+		background-color: rgba(40, 60, 60, 1.0);
+		border: 1px solid rgba(255, 255, 255, 0.5);
+	}
+	#copy:active {
+		margin-top: 3px;
+	}
+	.time {
+		text-align: right;
+		margin-right: 10px;
+		color: rgba(200, 255, 255, 0.4);
+		font-family: "Comfortaa", sans-serif;
+	}
+}
+@media (min-width: 480px) and (max-width: 1080px) {
+	xmp {
+		margin-left: 5px;
+		margin-top: -37px;
+		margin-bottom: 5px;
+	}
+	img {
+		width: 560px;
+		margin-bottom: 5px;
+		border: 2px solid rgba(255, 255, 255, 0.35);
+	}
+	.news {
+		text-align: center;
+		cursor: default;
+		border: 2.5px solid rgba(255, 255, 255, 0.4);
+		margin-top: 8.5px;
+		font-size: 2em;
+	}
+	.news:hover {
+		background-color: rgba(255, 255, 255, 0.1);
+	}
+	.title {
+		font-family: "M PLUS Rounded 1c", sans-serif;
+		font-style: bold;
+		font-size: 0.9em;
+		margin-top: -20px;
+		margin-bottom: -50px;
+	}
+	.text {
+		text-align: left;
+		padding: 10px;
+		font-family: "Comfortaa", sans-serif;
+		font-size: 0.6em;
+	}
+	.code {
+		border: 2px solid rgba(255, 255, 255, 0.25);
+		margin-top: 3px;
+		margin-left: 5px;
+		margin-right: 5px;
+		overflow-x: scroll;
+	}
+	.in_code {
+		text-align: right;
+		margin-top: 5px;
+		margin-right: 7px;
+	}
+	.lang_code {
+		font-size: 0.85em;
+	}
+	#copy {
+		cursor: pointer;
+		background-color: rgba(20, 30, 30, 1.0);
+		color: #FFF;
+		border: 1px solid rgba(255, 255, 255, 0.25);
+		font-size: 1em;
+	}
+	#copy:hover {
+		background-color: rgba(40, 60, 60, 1.0);
+		border: 1px solid rgba(255, 255, 255, 0.5);
+	}
+	#copy:active {
+		margin-top: 3px;
+	}
+	.time {
+		font-size: 0.6em;
+		text-align: right;
+		margin-right: 10px;
+		color: rgba(200, 255, 255, 0.4);
+		font-family: "Comfortaa", sans-serif;
+	}
+}
+@media (min-width: 240px) and (max-width: 480px) {
+	xmp {
+		margin-left: 5px;
+		margin-top: -37px;
+		margin-bottom: 5px;
+	}
+	img {
+		width: 280px;
+		margin-bottom: 5px;
+		border: 2px solid rgba(255, 255, 255, 0.35);
+	}
+	.news {
+		text-align: center;
+		cursor: default;
+		border: 2.5px solid rgba(255, 255, 255, 0.4);
+		margin-top: 8.5px;
+		font-size: 2em;
+	}
+	.news:hover {
+		background-color: rgba(255, 255, 255, 0.1);
+	}
+	.title {
+		font-family: "M PLUS Rounded 1c", sans-serif;
+		font-style: bold;
+		margin-top: -20px;
+		margin-bottom: -50px;
+	}
+	.text {
+		text-align: left;
+		padding: 10px;
+		font-family: "Comfortaa", sans-serif;
+		font-size: 0.6em;
+	}
+	.code {
+		border: 2px solid rgba(255, 255, 255, 0.25);
+		margin-top: 3px;
+		margin-left: 5px;
+		margin-right: 5px;
+		overflow-x: scroll;
+	}
+	.in_code {
+		text-align: right;
+		margin-top: 5px;
+		margin-right: 7px;
+	}
+	.lang_code {
+		font-size: 0.85em;
+	}
+	#copy {
+		cursor: pointer;
+		background-color: rgba(20, 30, 30, 1.0);
+		color: #FFF;
+		border: 1px solid rgba(255, 255, 255, 0.25);
+		font-size: 1em;
+	}
+	#copy:hover {
+		background-color: rgba(40, 60, 60, 1.0);
+		border: 1px solid rgba(255, 255, 255, 0.5);
+	}
+	#copy:active {
+		margin-top: 3px;
+	}
+	.time {
+		font-size: 0.6em;
+		text-align: right;
+		margin-right: 10px;
+		color: rgba(200, 255, 255, 0.4);
+		font-family: "Comfortaa", sans-serif;
+	}
+}

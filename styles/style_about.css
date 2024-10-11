@@ -1,0 +1,54 @@
+@keyframes avatar_animation {
+    0% {
+        box-shadow: 10px -5px 10px 5px rgb(63, 63, 160), -10px 5px 10px 5px rgb(68, 155, 104);
+        box-shadow: -10px 5px -10px -5px rgb(63, 63, 160), 10px -5px -10px -5px rgb(68, 155, 104);
+        transform: scale(1);
+        filter: blur(0px);
+        border-radius: 25%;
+    }
+    50% {
+        box-shadow: 10px -5px 10px 5px rgb(68, 155, 104), -10px 5px 10px 5px rgb(63, 63, 160);
+        box-shadow: -10px 5px -10px -5px rgb(68, 155, 104), 10px -5px -10px -5px rgb(63, 63, 160);
+        transform: scale(0.9);
+        filter: blur(3px);
+        border-radius: 50%;
+    }
+    100% {
+        box-shadow: 10px -5px 10px 5px rgb(63, 63, 160), -10px 5px 10px 5px rgb(68, 155, 104);
+        box-shadow: -10px 5px -10px -5px rgb(63, 63, 160), 10px -5px -10px -5px rgb(68, 155, 104);
+        transform: scale(1);
+        filter: blur(0px);
+        border-radius: 25%;
+    }
+}
+.avatar {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 10px -5px 10px 5px rgb(63, 63, 160), -10px 5px 10px 5px rgb(68, 155, 104);
+    box-shadow: -10px 5px -10px -5px rgb(63, 63, 160), 10px -5px -10px -5px rgb(68, 155, 104);
+    transition: 650ms ease-in-out;
+    user-select: none;
+
+    animation-name: avatar_animation;
+    animation-duration: 3000ms;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+@media (min-width: 1080px) {
+    .avatar {
+        margin-top: 2%;
+        block-size: 400px;
+    }
+}
+@media (min-width: 480px) and (max-width: 1080px) {
+    .avatar {
+        margin-top: 5%;
+        block-size: 350px;
+    }
+}
+@media (max-width: 480px) {
+    .avatar {
+        margin-top: 7%;
+        block-size: 240px;
+    }
+}

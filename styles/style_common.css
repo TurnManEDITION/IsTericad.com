@@ -4,7 +4,7 @@
 body {
     background-color: #000;
     color: #FFF;
-    font-family: sans-serif;
+    font-family: serif;
     scrollbar-color: gray;
 }
 a {
@@ -71,7 +71,6 @@ li > a {
 	header {
 		border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 		border-right: 2px solid rgba(255, 255, 255, 0.5);
-		font-size: 190%;
 	}
 	li {
 		list-style: none;
@@ -97,7 +96,7 @@ li > a {
 	}
 	.name_site {
 		text-align: right;
-		font-size: 3.3em;
+		font-size: 6em;
 		margin-right: 0.6em;
 	}
 	.display_none {
@@ -137,13 +136,14 @@ li > a {
 	.menu {
 		cursor: pointer;
 		position: absolute;
-		width: 57px;
-		height: 57px;
+		width: 70px;
+		height: 70px;
 	}
 	.name_site {
+		margin-bottom: 4px;
 		text-align: right;
-		font-size: 3.3em;
-		margin-right: 0.6em;
+		font-size: 4.1em;
+		margin-right: 0.2em;
 	}
 	.display_none {
 		display: none;

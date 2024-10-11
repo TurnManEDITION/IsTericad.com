@@ -353,7 +353,7 @@
 		margin-right: 5px;
 	}
 	.scroll {
-		overflow: scroll;
+		overflow-x: scroll;
 		margin-bottom: 5px;
 	}
 	.in_code {

@@ -136,13 +136,13 @@ li > a {
 	.menu {
 		cursor: pointer;
 		position: absolute;
-		width: 50px;
-		height: 50px;
+		width: 56px;
+		height: 56px;
 	}
 	.name_site {
 		margin-bottom: 4px;
 		text-align: right;
-		font-size: 2.9em;
+		font-size: 3.4em;
 		margin-right: 0.5em;
 	}
 	.display_none {

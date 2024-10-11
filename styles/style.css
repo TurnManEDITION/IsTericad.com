@@ -351,7 +351,10 @@
 		margin-top: 3px;
 		margin-left: 5px;
 		margin-right: 5px;
-		overflow-x: scroll;
+	}
+	.scroll {
+		overflow: scroll;
+		margin-bottom: 5px;
 	}
 	.in_code {
 		text-align: right;

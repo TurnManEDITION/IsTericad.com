@@ -50,14 +50,14 @@
     font-size: 2.5em;
     font-family: 'Comfortaa';
 }
-.city {
+/* .city {
     font-family: "M PLUS Rounded 1c", sans-serif;
 
     animation-name: city;
     animation-duration: 3000ms;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
-}
+} */
 .avatar {
     border: 2px solid rgb(255, 255, 255);
     border-radius: 50%;
@@ -73,6 +73,31 @@
 }
 .avatar:hover {
     cursor: none;
+}
+
+
+.blocks {
+    display: inline-block;
+    position: relative;
+    border: 2px solid #1ab7bd;
+    user-select: none;
+}
+.blocks_experience {
+    user-select: none;
+}
+.experience_card {
+    user-select: none;
+    padding: 2px;
+    float: left;
+    width: 150px;
+    height: 190px;
+    border: 1.5px solid rgba(108, 107, 112, 0.5);
+}
+.experience_card > img {
+    width: 150px;
+}
+.stars > img {
+    width: 20px;
 }
 @media (min-width: 1080px) {
     .avatar {
@@ -90,5 +115,19 @@
     .avatar {
         margin-top: 7%;
         block-size: 240px;
+    }
+    .experience_card {
+        user-select: none;
+        padding: 2px;
+        float: left;
+        width: 100px;
+        height: 126px;
+        border: 1.5px solid rgba(108, 107, 112, 0.5);
+    }
+    .experience_card > img {
+        width: 100px;
+    }
+    .stars > img {
+        width: 13.3px;
     }
 }

@@ -44,6 +44,9 @@
 .container_content{
     text-align: center;
 }
+.content {
+    text-align: center;
+}
 .info {
     margin-top: 15px;
     text-align: center;
@@ -74,8 +77,6 @@
 .avatar:hover {
     cursor: none;
 }
-
-
 .blocks {
     display: inline-block;
     position: relative;
@@ -98,6 +99,29 @@
 }
 .stars > img {
     width: 20px;
+}
+.alisa_experience_card {
+    user-select: none;
+    padding: 2px;
+    float: left;
+    width: 150px;
+    height: 190px;
+    border: 1.5px solid rgba(108, 107, 112, 0.5);
+}
+.alisa_experience_card > img {
+    width: 150px;
+}
+.alisa_stars > img {
+    width: 20px;
+}
+.users {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: "Rubik Distressed", system-ui;
+    font-style: normal;
+}
+.users > a {
+    text-decoration: underline;
 }
 @media (min-width: 1080px) {
     .avatar {
@@ -129,5 +153,26 @@
     }
     .stars > img {
         width: 13.3px;
+    }
+
+    .alisa_experience_card {
+        user-select: none;
+        padding: 2px;
+        float: left;
+        width: 100px;
+        height: 126px;
+        border: 1.5px solid rgba(108, 107, 112, 0.5);
+    }
+    .alisa_experience_card > img {
+        width: 100px;
+    }
+    .alisa_stars > img {
+        width: 13.3px;
+    }
+    .users {
+        font-size: 1.5em;
+        text-align: center;
+        font-family: "Rubik Distressed", system-ui;
+        font-style: normal;
     }
 }

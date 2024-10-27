@@ -8,55 +8,95 @@
     <title>IsTericad & PTc - downloads</title>
 </head>
 <body>
-    <section class="header_pc">
-		<nav>
-			<ul class="menu">
-				<li>
-					<a href="news.html">Новости</a>
-				</li>
-				<li>
-					<a href="links.html">Ссылки</a>
-				</li>
-				<li>
-					<a class="selected" href="">Скачивание</a>
-				</li>
-				<li>
-					<a href="about.html">Об авторе</a>
-				</li>
-			</ul>
-		</nav>
-	</section>
-	<section class="header_phone">
-		<section id="content_menu" class="display_none">
-			<header>
-				<img id="button_back" class="menu" style="border: 0px solid #FFF;" src="Images/Icons/white_back.png" alt="">
-				<div class="name_site">IsTericad</div>
-			</header>
-			<ul class="content_menu">
-				<li>
-					<a href="news.html">Новости</a>
-				</li>
-				<li>
-					<a href="links.html">Ссылки</a>
-				</li>
-				<li>
-					<a href="">Скачивание</a>
-				</li>
-				<li>
-					<a href="about.html">Об авторе</a>
-				</li>
-			</ul>
+	<div class="container">
+		<section class="header_pc">
+			<nav>
+				<ul class="menu">
+					<li>
+						<a href="news.html">Новости</a>
+					</li>
+					<li>
+						<a href="links.html">Ссылки</a>
+					</li>
+					<li>
+						<a class="selected" href="">Скачивание</a>
+					</li>
+					<li>
+						<a href="about.html">Об авторе</a>
+					</li>
+				</ul>
+			</nav>
 		</section>
-		<section id="header_content" class="display_block">
-			<header>
-				<img id="button_menu" class="menu" style="border: 0px solid #FFF;" src="Images/Icons/white_menu.png" alt="">
-				<a href=""><div class="name_site">IsTericad</div></a>
-			</header>
+		<section class="header_phone">
+			<section id="content_menu" class="display_none">
+				<header>
+					<img id="button_back" class="menu" style="border: 0px solid #FFF;" src="Images/Icons/white_back.png" alt="">
+					<div class="name_site">IsTericad</div>
+				</header>
+				<ul class="content_menu">
+					<li>
+						<a href="news.html">Новости</a>
+					</li>
+					<li>
+						<a href="links.html">Ссылки</a>
+					</li>
+					<li>
+						<a href="">Скачивание</a>
+					</li>
+					<li>
+						<a href="about.html">Об авторе</a>
+					</li>
+				</ul>
+			</section>
+			<section id="header_content" class="display_block">
+				<header>
+					<img id="button_menu" class="menu" style="border: 0px solid #FFF;" src="Images/Icons/white_menu.png" alt="">
+					<a href=""><div class="name_site">IsTericad</div></a>
+				</header>
+			</section>
 		</section>
-	</section>
-	<section id="content" class="display_block">
-		
-	</section>
+		<section id="content" class="display_block">
+			<div class="title">Выберите тип</div>
+			<div class="button_download">
+				<button id="apk">Android</button>
+				<button id="exe">Windows</button>
+			</div>
+			<section id="apk_download" class="display_none">
+				<div class="title">Файлы доступные для скачивания</div>
+					<div class="block">
+						<div>
+							<ul id="block_download">
+								<li id="title_download">Название</li>
+								<li id="description_download">Описание</li>
+								<li id="date_download">Дата</li>
+							</ul>
+						</div>
+						<a href="https://turnmanedition.github.io/IsTericad.com/downloads/CalcOnJava.apk">
+							<div>
+								<ul id="block_download">
+									<li id="title_download">Калькулятор(apk)</li>
+									<li id="description_download">Apk, Java, Android Studio</li>
+									<li id="date_download">27.10.24</li>
+								</ul>
+							</div>
+						</a>
+					</div>
+			</section>
+
+			<section id="exe_download" class="display_none">
+				<div class="title">Файлы доступные для скачивания</div>
+				<div class="block">
+					<div>
+						<ul id="block_download">
+							<li id="title_download">Название</li>
+							<li id="description_download">Описание</li>
+							<li id="date_download">Дата</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</section>
+	</div>
     <script src="JavaScripts/script.js"></script>
 </body>
 </html>

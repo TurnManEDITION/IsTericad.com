@@ -23,3 +23,16 @@ document.querySelector('#button_back').addEventListener('click', () => {
   document.querySelector('#header_content').classList.remove('display_none');
   document.querySelector('#header_content').classList.add('display_block');
 })
+
+document.querySelector('#apk').addEventListener('click', () => {
+  document.querySelector('#apk_download').classList.remove('display_none');
+  document.querySelector('#apk_download').classList.add('display_block');
+  document.querySelector('#exe_download').classList.remove('display_block');
+  document.querySelector('#exe_download').classList.add('display_none');
+})
+document.querySelector('#exe').addEventListener('click', () => {
+  document.querySelector('#apk_download').classList.remove('display_block');
+  document.querySelector('#apk_download').classList.add('display_none');
+  document.querySelector('#exe_download').classList.remove('display_none');
+  document.querySelector('#exe_download').classList.add('display_block');
+})

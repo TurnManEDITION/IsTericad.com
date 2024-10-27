@@ -1,0 +1,45 @@
+.block {
+    font-size: 1.5em;
+    text-align: center;
+    font-family: "Playwrite GB S", cursive;
+    font-style: normal;
+}
+.block > div {
+    padding-bottom: 10px;
+}
+.title {
+    font-size: 1.4em;
+}
+.button_download > button {
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #000000;
+    padding-inline: 5px;
+    font-size: 1.3em;
+}
+#content {
+    text-align: center;
+}
+#block_download {
+    display: inline-block;
+    top: 10px;
+    border: 1px solid rgba(255,255,255, 0.4);
+}
+#block_download > ul {
+    cursor: pointer;
+}
+#block_download > li {
+    text-decoration: underline;
+}
+#block_download > li{
+    float: left;
+    /* width: 140px;
+    height: 40px; */
+    line-height: 40px;
+    background: rgba(0,0,0, 0.7);
+    cursor: default;
+    font-size: 20px;
+    border:  1px solid rgba(255,255,255, 0.15);
+    transition: all 300ms ease-in-out;
+    padding-inline: 3px;
+}

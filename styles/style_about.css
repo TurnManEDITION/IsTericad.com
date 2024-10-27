@@ -115,6 +115,7 @@
     width: 20px;
 }
 .users {
+    margin-top: 20px;
     font-size: 1.5em;
     text-align: center;
     font-family: "Rubik Distressed", system-ui;
